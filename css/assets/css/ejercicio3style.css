@@ -1,0 +1,51 @@
+h1{
+    color: white;
+    text-shadow: black 5px 5px;
+    font-size: 60px;
+}
+body{
+    background-color: green;
+}
+
+.txt1{
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    border: 10px solid black;
+    padding: 10px;
+}
+.txt2{
+    color: white;
+    background-color: orange;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-right: 200px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    border: 10px solid red;
+    padding: 10px;
+}
+.txt3{
+    color: white;
+    background-color: lightpink;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-left: 400px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    border: 10px solid salmon;
+    padding: 10px;
+}
+.txt4{
+    color: white;
+    background-color: purple;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    border: 5px dashed blueviolet;
+    padding: 10px;
+}

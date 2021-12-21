@@ -1,0 +1,41 @@
+.Titulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* color: white;
+    border-color: red;
+    font-size: 50px; */
+}
+.Subtitulo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    /*background-image: url(https://cdn.dribbble.com/users/116372/screenshots/4552773/media/0358cfe943c0a033ab24e6867f8ec8af.png);*/
+    /* background-image: url(../img/1.jpg); */
+    /*background-repeat: no-repeat;*/ /*Desactivar repeticion del fondo*/
+    /*background-size: cover;*/
+}
+.caja{
+    height: 300px;
+    width: 300px;
+    margin:100px;
+    margin-bottom: 20px;   /*Margen del div en el fondo*/
+    font-size: 30px;
+    /*padding: 100px   /*Margen interno del elemento*/
+}
+
+.roja{
+  /*   background-color: red; */
+    border: 20px solid red;
+    color: red;
+    font-size: 50px;
+}
+.verde{
+    /* background-color: green; */
+    border: 10px dotted green;
+    border-radius: 30px;
+}
+.azul{
+   /*  background-color: blue; */
+    border: 10px solid blue;
+    border-radius: 30px;
+}
