@@ -1,0 +1,32 @@
+.formulario{
+    font-size: 20px;
+    width: auto;
+    height: auto;
+    border: 5px solid lightblue;
+    margin-right: 250px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    
+}
+.campo{
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: auto;
+    border: 1px solid blue;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 50px;
+    
+}
+.Boton-envio{
+text-align: center;
+}
+
+#password{
+    border: 2px dashed blue;
+}
+.fieldsets{
+    text-align: center;
+    font-size: 30px;
+}
