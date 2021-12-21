@@ -13,15 +13,13 @@
 }
 .dato{
     padding: 10px;
-    margin-right: 0px;
     float: right;
 
 }
 .campodato{
     border: 2px solid red;
     height: auto;
-    margin-left: 30px;
-    margin-right: 0px;
+    display: inline-block;
     
     
     
