@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/assets/css/ejercicio-htmlavanzado.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Ejercicio</title>
+</head>
+<body>
+    <div class="principal">   <!--Divisor cuadro principal-->
+        <form>
+            <fieldset class="camposdatos">
+            <legend>Datos del comprador</legend>
+            <div class="dato">
+                <label class="lab" for="nombre">Nombre</label>
+                 <input
+                   class="campodato"
+                   type="text"
+                   name="nombre"
+                   id="nombre"
+                   placeholder="Escribe tu nombre completo"/>
+            </div>
+
+            <div class="dato">
+                <label class="lab" for="correo">Correo</label>
+                 <input 
+                   class="campodato"
+                   type="email"
+                   name="correo"
+                   id="correo"
+                   placeholder="ejemplo@um.es"/>
+            </div>
+
+            <div class="dato">
+                <label class="lab" for="tel">Teléfono</label>
+                 <input 
+                   class="campodato"
+                   type="text"
+                   name="tel"
+                   id="tel"
+                   placeholder="Ej. +34668899999"/>
+            </div>
+
+            <div class="dato">
+                <label class="lab" for="pais">País</label>
+                 <input
+                   class="campodato"
+                   type="text"
+                   name="pais"
+                   id="pais"/>
+            </div>
+            </fieldset> 
+        </form> 
+
+            <div>
+                
+                <form>
+                    <fieldset class="camposdatos">
+                        <legend>Datos de tarjeta de credito o debito</legend>
+                        <div class="dato">
+                            <label class="lab" for="numerotar">Numero</label>
+                             <input
+                               class="campodato"
+                               type="number"
+                               name="numerotar"
+                               id="numerotar"
+                               placeholder="Ej. 5555161164684"/>
+                        </div>
+                        <div class="dato">
+                            <label class="lab" for="nombretar">Nombre</label>
+                             <input
+                               class="campodato"
+                               type="text"
+                               name="nombretar"
+                               id="numerotar"
+                               placeholder="Nombre que figura en la tarjeta"/>
+                        </div>
+                    </fieldset>
+                    
+                </form>
+            </div>
+
+            <div>
+                <div>
+                    <label for="confirmar">---------------------</label>
+                </div>
+                <div>
+                    <input type="submit" id="confirmar" name="confirmar" value="Confirmar Pedido"/>
+                </div>
+            </div>
+
+            
+
+            
+        </form>
+    </div>
+    
+</body>
+</html>

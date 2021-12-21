@@ -1,0 +1,36 @@
+.principal{
+    align-self: center;
+    background-color: green;
+    width: 400px;
+    height: 400px;
+    border: 20px solid pink;
+    padding: 50px;
+    color: white;
+}
+.camposdatos{
+    border: 0px;
+    padding-bottom: 30px;
+}
+.dato{
+    padding: 10px;
+    margin-right: 0px;
+    float: right;
+
+}
+.campodato{
+    border: 2px solid red;
+    height: auto;
+    margin-left: 30px;
+    margin-right: 0px;
+    
+    
+    
+}
+.lab{
+    margin-right: 20px;
+    float: left;
+}
+
+body{
+    align-content: center;
+}
