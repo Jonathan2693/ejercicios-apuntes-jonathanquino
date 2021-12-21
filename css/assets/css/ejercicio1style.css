@@ -1,0 +1,44 @@
+h1{
+    font-size: 60px;
+    text-transform: capitalize;
+}
+#txt1{
+    color: white;
+    font-style: italic;
+    font-size: 25px;
+}
+#txt2{
+    color: rgb(237, 247, 99);
+    font-size: 25px;
+}
+
+#txt3{
+    color: rgb(241, 228, 34);
+    font-size: 30px;
+    font-family: Courier;
+}
+#txt4{
+    color: white;
+    font-size: 28px;
+    font-style: italic;
+}
+#txt5{
+    color:yellow;
+    font-size: 35px;
+}
+#txt6{
+    color: rgb(206, 31, 31);
+    font-size: 28px;
+}
+#txt7{
+    color: white;
+    font-size: 32px;
+}
+#txt8{
+    color: rgb(206, 31, 31);
+    font-size: 28px;
+}
+body
+{
+    background-color: rgb(78, 133, 78);
+}

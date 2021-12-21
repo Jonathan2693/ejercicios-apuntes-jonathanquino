@@ -1,0 +1,28 @@
+h1.encabezado       /*Selector de clase*/          
+{
+    font-size: 72px;    /* Tamaño de letra de 72 pixeles a la etiqueta h1*/
+    color: white;   /*Color de texto*/
+    background-color: #7e2d2d; /*Color de fondo*/
+    text-align: center; /*Alineacion de texto*/
+    text-transform: capitalize; /* Cambio de texto por reglas*/
+}
+body
+{
+    background-color: lightblue;
+}
+p{
+    font-size: 20px;
+    color: rgb(94, 34, 34);
+}
+.texto
+{
+    font-size: 30px;
+    color: red;
+}
+
+#texto
+{
+font-size: 36px;
+color: royalblue;
+font-style: italic;
+}

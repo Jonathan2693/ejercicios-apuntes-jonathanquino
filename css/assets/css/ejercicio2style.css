@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(240, 175, 202) ;
+}
+h1{
+    font-weight: 900;
+    text-align: right;
+}
+.Titulo{
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.tipo1{
+    color:orange;
+
+}
+
+.tipo3{
+    color: yellow;
+}
+.tipo2{
+    color: green;
+    background-color: white;
+}
+h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.primelinea{
+    text-indent: 20px;
+}
