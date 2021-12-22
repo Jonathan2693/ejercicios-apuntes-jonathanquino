@@ -1,0 +1,38 @@
+table{
+width:600px;
+position: relative;
+left: 120px;
+}
+table, tr, th, td{
+    border: 1px solid black;
+    
+}
+body{
+    background-color: lightblue;
+    text-align: center;
+}
+div{
+    background-color: lightgreen;
+}
+h1{
+    text-align: center;
+    
+}
+#txt1{
+    color: red;
+}
+.num1{
+    background-color: red;
+}
+#txt2{
+    font-weight: bold;
+}
+#txt3{
+    color: yellow;
+}
+#celda{
+    background-color: black;
+}
+.celdas{
+    background-color: orange;
+}
