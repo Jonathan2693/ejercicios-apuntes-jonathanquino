@@ -1,7 +1,8 @@
 table{
 width:600px;
-position: relative;
-left: 120px;
+margin: 0 auto;     /*Centrado de tablas 
+/* position: relative;
+left: 120px; */
 }
 table, tr, th, td{
     border: 1px solid black;
@@ -29,6 +30,9 @@ h1{
 }
 #txt3{
     color: yellow;
+}
+#txt4{
+    font-style: italic;
 }
 #celda{
     background-color: black;
