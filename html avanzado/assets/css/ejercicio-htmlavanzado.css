@@ -1,34 +1,30 @@
 .principal{
     align-self: center;
     background-color: green;
-    width: 400px;
+    width: 500px;
     height: 400px;
-    border: 20px solid pink;
-    padding: 50px;
+    border: 20px solid lightblue;
+    padding: 25px;
     color: white;
 }
 .camposdatos{
-    border: 0px;
-    padding-bottom: 30px;
+    border:0px;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 .dato{
     padding: 10px;
-    float: right;
+    margin-left: 50px;
 
 }
-.campodato{
+ .campodato{
     border: 2px solid red;
-    height: auto;
-    display: inline-block;
-    
-    
-    
+    width: 250px;
+    margin-right: 0.25px; 
+    margin-left: 10px;
+    float:right;
 }
 .lab{
-    margin-right: 20px;
-    float: left;
-}
-
-body{
-    align-content: center;
+   font-weight: bold;
+    
 }
