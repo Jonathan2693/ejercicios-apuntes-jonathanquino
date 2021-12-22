@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/assets/css/tablasstyles.css" type="text/css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<body>
+    <h1>Tablas</h1>
+    <table>
+        <thead></thead>
+        <tr>
+            <th>Cabecera</th>
+            <th colspan="2">Cabecera2</th>      <!--Colspan se extiende el numero de celdas que se especifique-->
+        </tr>
+        <tbody>
+            <tr>
+                <td rowspan="2">Hola</td>       <!--rowspan se extiende el numero de filas que se especifique-->
+                <td colspan="2">Adios</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Pie de tabla</td>
+                <td colspan="2">Pie de tabla</td>
+            </tr>
+        </tfoot>
+
+    </table>
+</body>
+</html>

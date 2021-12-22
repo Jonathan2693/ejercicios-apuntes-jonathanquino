@@ -1,0 +1,13 @@
+table{
+    width: 300px;
+}
+table,th,tr,td {
+    border: 1px solid black;
+}
+td{
+    background-color: blue;
+    color: white;
+}
+th{
+    background-color: purple;
+}
