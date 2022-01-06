@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    background-color: #0b3de0;
+    height: 50px;
+}
+.menu ul{
+    width: max-content;
+    margin: 0 auto;
+    text-align: center;
+}
+.elemento1{
+    display: inline;
+    margin: 0px 20px;
+    
+}
+.elemento1 a{
+    font-size: 24px;
+    font-family: 'Dosis';
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    transition: color 500ms;
+}
+
+.elemento1 a:hover{
+    color: red;
+}
