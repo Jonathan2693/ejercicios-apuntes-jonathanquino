@@ -1,0 +1,24 @@
+table, th, td, tr{
+    border: 1px solid black;
+}
+table{
+    width: 400px;
+}
+.etiqueta1{
+    display: inline;
+    border: 1px solid black;
+}
+.etiqueta2{
+    background-color: red;
+    display: block;
+    border: 1px solid black;
+}
+.etiqueta3{
+    display: inline;
+    background-color: yellow;
+}
+
+#bloque{
+    display: inline-block;
+    background-color: red;
+}
