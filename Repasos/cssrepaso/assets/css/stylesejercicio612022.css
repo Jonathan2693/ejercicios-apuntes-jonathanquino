@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+.contenedorgrande{
+    margin-top: 0;
+    display: inline-block;
+    width: 1500px;
+    height: max-content;
+}
+.contenedorchico{
+    display: inline-block;
+    background-color: black;
+    width: 5px;
+    height: 600px;
+}
+.titulo{
+    font-size: 40px;
+    margin: 0 auto;
+    text-align: center;
+}
+.caja{
+    text-align: center;
+}
+h2{
+    background-color: gray;
+    color: white;
+    margin: 0 50px;
+    padding: 5px;
+}
+img{
+    display: inline-block;
+    margin: 20px 10px 0 100px;
+    
+}
+p{
+    text-indent: 30px;
+    text-align: left;
+    font-size: 20px;
+    width: 900px;
+    display: inline-block;
+}
+.txt1{
+ color: red;
+ font-style: italic;
+}
+.txt2{
+background-color: white;
+font-weight: bold;
+}
