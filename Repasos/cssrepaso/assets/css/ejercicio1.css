@@ -1,0 +1,36 @@
+body{
+    background-color: lightgray;
+}
+.titulo-principal{
+    text-align: center;
+    letter-spacing: 5px;
+}
+.contenido-principal{
+    /*Medidas relativas*/
+    width: 90%;
+    margin: 0 auto;
+}
+.contenido-principal .contenido{
+    width: 80%;
+    margin: 0 auto;
+}
+.contenido-principal .encabezado{
+    background-color: gray;
+    color: white;
+    padding: 10px 5px;
+}
+.contenido-principal .contenido .contenido-texto{
+    text-align: justify;
+    margin-left: 150px;
+    text-indent: 20px;
+}
+.contenido-principal .contenido .contenido-imagen{
+    float: left;
+}
+.contenido-principal .contenido .contenido-imagen img{
+    width: 90%;
+    height: 90%;
+}
+/*float rompe el flujo de los elementos html, se debe colocar 
+float:none;
+clear:none para regresar al flujo de los elementos, sin que el elemento que esta flotando rompa el flujo debajo*/
